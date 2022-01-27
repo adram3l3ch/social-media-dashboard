@@ -1,0 +1,38 @@
+.switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.switch p {
+    color: var(--text400);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 1.1rem;
+}
+.toggle {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10rem;
+    background: var(--toggle);
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle__thumb {
+    position: absolute;
+    top: 0.2rem;
+    bottom: 0.2rem;
+    right: calc(100%);
+    transform: translateX(calc(100% + 0.2rem));
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--bg);
+    transition: all 0.2s linear;
+}
+
+.toggle__thumb.active {
+    left: initial;
+    right: 0.2rem;
+    transform: none;
+}

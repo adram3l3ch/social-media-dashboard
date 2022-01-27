@@ -1,33 +1,87 @@
 {
-    "followers": 23004,
+    "followers": "23,004",
     "dashboard": [
         {
             "app": "facebook",
             "username": "@nathanf",
             "followers": 1987,
             "diff": "12",
-            "color": "hsl(208, 92%, 53%)"
+            "color": "hsl(208, 92%, 53%)",
+            "desc": "FOLLOWERS"
         },
         {
             "app": "twitter",
             "username": "@nathanf",
             "followers": 1044,
             "diff": "99",
-            "color": "hsl(203, 89%, 53%)"
+            "color": "hsl(203, 89%, 53%)",
+            "desc": "FOLLOWERS"
         },
         {
             "app": "instagram",
             "username": "@realnathanf",
             "followers": "11k",
             "diff": "1099",
-            "color": "linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%))"
+            "color": "linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
+            "desc": "FOLLOWERS"
         },
         {
             "app": "youtube",
             "username": "Nathan F",
             "followers": "8239",
             "diff": "-144",
-            "color": "hsl(348, 97%, 39%)"
+            "color": "hsl(348, 97%, 39%)",
+            "desc": "SUBSCRIBERS"
+        }
+    ],
+    "overview": [
+        {
+            "title": "Page Views",
+            "app": "facebook",
+            "value": "87",
+            "diff": 3
+        },
+        {
+            "title": "Likes",
+            "app": "facebook",
+            "value": "52",
+            "diff": -2
+        },
+        {
+            "title": "Likes",
+            "app": "instagram",
+            "value": "5462",
+            "diff": 2257
+        },
+        {
+            "title": "Profile Views",
+            "app": "instagram",
+            "value": "52k",
+            "diff": 1375
+        },
+        {
+            "title": "Retweets",
+            "app": "twitter",
+            "value": "117",
+            "diff": 303
+        },
+        {
+            "title": "Likes",
+            "app": "twitter",
+            "value": "507",
+            "diff": 553
+        },
+        {
+            "title": "Likes",
+            "app": "youtube",
+            "value": "107",
+            "diff": -19
+        },
+        {
+            "title": "Total Views",
+            "app": "youtube",
+            "value": "1407",
+            "diff": -12
         }
     ]
 }
